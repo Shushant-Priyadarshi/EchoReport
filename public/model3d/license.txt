@@ -1,0 +1,11 @@
+Model Information:
+* title:	Jedi Star Fighter
+* source:	https://sketchfab.com/3d-models/jedi-star-fighter-0b641c2f2b854f1f9ae7f2a731e44dbd
+* author:	Petri Liuhto (https://sketchfab.com/petri.liuhto)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Jedi Star Fighter" (https://sketchfab.com/3d-models/jedi-star-fighter-0b641c2f2b854f1f9ae7f2a731e44dbd) by Petri Liuhto (https://sketchfab.com/petri.liuhto) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

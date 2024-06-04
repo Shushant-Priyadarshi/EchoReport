@@ -35,13 +35,13 @@ const Hero = () => {
             animate={mainControl}
             transition={{ duration: 1, delay: 0.25 }}
           >
-            <h2 className="text-4xl md:text-6xl font-bold mb-8 text-white">
+            <motion.h2 className="text-4xl md:text-6xl font-bold mb-8 text-white">
               Echo<span className="text-info">Report</span>
-            </h2>
-            <h1 className="text-4xl md:text-6xl font-bold">
+            </motion.h2>
+            <motion.h1 className="text-4xl md:text-6xl font-bold">
               Stay <span className="text-info">Informed</span>, Stay{" "}
               <span className="text-info">Ahead</span>
-            </h1>
+            </motion.h1>
             <p className="mt-4 md:mt-8 text-lg md:text-2xl">
               Your Source for Reliable and Up-to-Date News on Politics,
               Business, Technology, and More

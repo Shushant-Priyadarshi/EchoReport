@@ -1,14 +1,10 @@
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import toast from "react-hot-toast";
-// import { useLoader } from "@react-three/fiber";
-// import GLTFLoader from "@react-three/gltfjsx/src/utils/glftLoader";
-// import astronaut from "../../assets/model3d/scene.gltf"
+import { Canvas } from "@react-three/fiber";
 
-// function Scene(){
-//   const gltf =useLoader(GLTFLoader,astronaut)
-//   return <primitive object={gltf.scene} />
-// }
+import { Environment, Float, OrbitControls } from "@react-three/drei";
+import Astronaut from "../models/Astronaut";
 
 const Contact = () => {
   const {
@@ -34,15 +30,22 @@ const Contact = () => {
 
   return (
     <div className="py-10 font-poppins" id="contact">
-      <div
-        className="text-center font-bold text-3xl text-info mt-2 pt-3"
-        data-aos="flip-down"
-      >
+      <div className="text-center font-bold text-3xl text-info mt-2 pt-3">
         Contact Us
       </div>
       <div className="max-w-[1240px] mx-auto md:grid grid-cols-2 gap-10 md:my-10 p-4 md:p-0">
-        <div className="col-span-1 flex justify-center rounded-lg">
-          <img src="" alt="Astronaut" />
+        <div className="col-span-1 flex justify-center rounded-lg ">
+          <Canvas camera={{ position: [300, 100, 400] }}>
+            <Environment preset="studio" />
+            <OrbitControls enableZoom={false} />
+            <directionalLight position={[3.3, 1.0, 4.4]} />
+
+            <mesh>
+              <Float speed={10} rotationIntensity={0} floatIntensity={300}>
+                <Astronaut />
+              </Float>
+            </mesh>
+          </Canvas>
         </div>
         <div className="col-span-1 md:text-lg p-4">
           <form

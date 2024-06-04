@@ -70,7 +70,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren: 0.1 }}
                   className="inline-block"
                 >
                   {head1.split(" ").map((word, index) => (
@@ -90,7 +90,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren: 0.1 }}
                   className="inline-block"
                 >
                   {mission.split(" ").map((word, index) => (
@@ -112,7 +112,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren: 0.1 }}
                   className="inline-block"
                 >
                   {head2.split(" ").map((word, index) => (
@@ -132,7 +132,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren: 0.1 }}
                   className="inline-block"
                 >
                   {vision.split(" ").map((word, index) => (
@@ -154,7 +154,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren:0.1}}
                   className="inline-block"
                 >
                   {head3.split(" ").map((word, index) => (
@@ -174,7 +174,7 @@ const About = () => {
                   aria-hidden
                   initial="hidden"
                   animate={inView ? "visible" : "hidden"}
-                  transition={{ staggerChildren: 0.07 }}
+                  transition={{ staggerChildren:0.1 }}
                   className="inline-block"
                 >
                   {choose.split(" ").map((word, index) => (
