@@ -1,4 +1,4 @@
-import { Environment, OrbitControls, Sphere,Float } from "@react-three/drei";
+import { Environment, OrbitControls, Sphere,Float, ContactShadows } from "@react-three/drei";
 import { Canvas, useFrame, useLoader } from "@react-three/fiber";
 import { motion, useInView } from "framer-motion";
 import { Suspense, useRef } from "react";
@@ -199,6 +199,7 @@ const About = () => {
             <directionalLight position={[3.3, 1.0, 4.4]} intensity={4} />
             <Float speed={10} rotationIntensity={0} floatIntensity={1}>
               <Earth colorMap={colorMap} />
+              
             </Float>
            
           </Canvas>
