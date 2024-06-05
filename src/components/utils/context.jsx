@@ -4,7 +4,7 @@ import reducer from "./Reducer";
 let API = "https://hn.algolia.com/api/v1/search?";
 const initialState = {
   isLoading: true,
-  query: "",
+  query: "spacex",
   nbPages: 0,
   page: 0,
   hits: [],
