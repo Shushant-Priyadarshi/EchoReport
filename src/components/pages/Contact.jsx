@@ -20,7 +20,7 @@ const Contact = () => {
       message: data.message,
     };
     try {
-      await axios.post("https://formsubmit.co/el/mivedi", userInfo);
+      await axios.post("https://formspree.io/f/mayrzzrz", userInfo);
       toast.success("Message sent successfully!");
     } catch (error) {
       console.log("erroe", error);
